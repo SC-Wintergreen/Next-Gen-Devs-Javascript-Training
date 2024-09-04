@@ -1,0 +1,10 @@
+{
+  "locoName": "WAP 7",
+  "locoType": "Electric",
+  "locoGauge": "Broad Gauge",
+  "power": 6125,
+  "wheelConfig": "CO-CO",
+  "countryOfOrigin": "Switzerland",
+  "topSpeed": 180,
+  "prodcution": ["CLW", "DLW", "BLW"]
+}
