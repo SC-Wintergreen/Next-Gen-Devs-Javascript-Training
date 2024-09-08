@@ -1,0 +1,11 @@
+extends layouts/main-layout.pug
+
+block styles 
+    link(rel="stylesheet" href="/css/addUsers.css")
+
+block content
+    main
+        form(action="/" method="POST")
+            input(type="text" placeholder="Add Users" name="title")
+            button.submit(type="submit") Submit 
+

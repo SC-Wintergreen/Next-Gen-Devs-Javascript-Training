@@ -1,0 +1,55 @@
+
+
+form {
+
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+input {
+
+    width: 30%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #1d1d1d;
+    font-size: 1.2rem;
+
+
+}
+
+input::placeholder {
+
+    color: #a0a0a0;
+    font-size: 1.2rem;
+}
+
+
+
+input:focus {
+
+    border-bottom: 2px solid #ee2345;
+    transition: 1.5s ease-in-out;
+
+}
+
+button {
+
+    padding-inline: 0.5rem;
+    font-size: 1rem;
+    background: none;
+    border: 1px solid #ee2345;
+    color: #ee2345;
+    transition: 0.5s ease-in-out;
+    border-radius: 5px;
+
+}
+
+button:hover {
+
+    background-color: #ee2345;
+    color: #ddd;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+main {
+
+
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+input {
+
+    outline: none;
+}
+
+input:focus-visible {
+
+    outline: 1px solid #3912c7;
+}

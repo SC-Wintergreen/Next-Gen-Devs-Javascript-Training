@@ -19,7 +19,7 @@ server.use("/admin", adminRoutes);
 server.use(shopRoutes);
 
 server.use("/", (req, res) => {
-  res.send(404).sendFile(path.join(__dirname, "views", "error404.html"));
+  res.status(404).sendFile(path.join(__dirname, "views", "error404.html"));
 });
 
 server.listen(process.env.PORT, (req, res) => {

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/add-users.css">
+    <title>Add Users</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/users/add-users">Add Users</a></li>
+                <li><a href="/">Show Users</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1>Add User Data</h1>
+
+        <form action="/users/add-users" method="POST">
+
+            <input type="text" name="title" placeholder="Enter User Data" />
+            <button type="submit">Add User Data</button>
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>

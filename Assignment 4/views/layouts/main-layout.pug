@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet" href="/css/main.css")
+        block styles
+
+    body
+        header
+            nav
+                ul.nav__items-list 
+                    li.nav__item 
+                        a.active(href="/") Add Users
+                    li.nav__item 
+                        a(href="/users") Users
+
+        block content 
